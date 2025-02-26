@@ -207,7 +207,6 @@ function Navbar({ scrollToExplore }: { scrollToExplore: any }) {
                   color: "#050c40",
                   border: "none",
                   borderRadius: "5px",
-                  marginRight: "15px",
                   cursor: "pointer",
                 }}
               >
@@ -224,7 +223,7 @@ function Navbar({ scrollToExplore }: { scrollToExplore: any }) {
             borderLeft: screens.md
               ? "1.5px solid rgba(255, 255, 255, 0.1)"
               : "none",
-            paddingLeft: screens.md ? "20px" : "0",
+             marginLeft: screens.md ? "20px" : "0",
             backgroundColor:
               hovered === "github" ? "rgba(255, 255, 255, 0.1)" : "transparent",
             cursor: "pointer",
